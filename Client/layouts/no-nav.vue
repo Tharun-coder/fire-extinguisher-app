@@ -1,21 +1,19 @@
 <template>
-    <div>
-        <div class="container">
-            <NuxtLink to="/">Go Back</NuxtLink>
-        </div>
-        <Nuxt />
+  <div>
+    <div class="container">
+      <NuxtLink to="/">Go Back</NuxtLink>
+      <Nuxt />
     </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style scoped>
-    .container {
-        padding-top: 6rem;
-        margin-bottom: -5rem;
-    }
+.container {
+  padding-top: 6rem;
+  margin-bottom: -5rem;
+}
 </style>
